@@ -1,6 +1,6 @@
 Forked From https://github.com/Karbovanets/Karbowanec-Blockchain-Explorer
 
-# Turtle Block - A Turtle Coin Blockchain Explorer
+# Turtle Blocks - A Turtle Coin Blockchain Explorer
 # This repository requires a modifed version of Turtle Coin
     The RpcServer does not output the difficulty by default on `f_blocks_list_json`
     and requires a change to the tempalte file to output it. (PR TODO)
