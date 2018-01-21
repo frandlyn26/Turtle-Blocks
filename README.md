@@ -4,6 +4,13 @@ Forked From https://github.com/Karbovanets/Karbowanec-Blockchain-Explorer
 # This repository requires a modifed version of Turtle Coin
     The RpcServer does not output the difficulty by default on `f_blocks_list_json`
     and requires a change to the tempalte file to output it. (PR TODO)
+    
+    Without this update it will require an additional request to the daemon per block 
+    loaded on home.html, to get each blocks difficulty. 
+    
+    This might not be an issue with early on with low users, but a spike in users 
+    could cost extra recourses (therefore more $/£) in cloud hosting senarios 
+    
 # Do not forget to add your deamon IP / domain name in config.json 
 
 Most of my changes can be viewed by searching for "NOTE"
