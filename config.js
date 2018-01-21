@@ -1,4 +1,4 @@
-var api = 'http://deamon.blocktest.com:8081';
+var api = 'PUT_YOUR_DAEMON_IP_HERE';
 var blockTargetInterval = 240;
 var coinUnits = 1000000000000;
 var symbol = 'TRTL';
