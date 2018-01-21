@@ -1,10 +1,14 @@
-# Karbowanec-Blockchain-Explorer
-Block explorer for Karbowanec CryptoNote based cryptocurrency.
+Forked From https://github.com/Karbovanets/Karbowanec-Blockchain-Explorer
 
-#### Installation
+# Turtle Block - A Turtle Coin Blockchain Explorer
+# This repository requires a modifed version of Turtle Coin
+    The RpcServer does not output the difficulty by default on `f_blocks_list_json`
+    and requires a change to the tempalte file to output it.
 
-1) It takes data from daemon karbowanecd. It should be accessible from the Internet. Run karbowanecd with open port as follows:
-```bash
-./karbowanecd --restricted-rpc --enable-cors=* --enable-blockchain-indexes --rpc-bind-ip=0.0.0.0 --rpc-bind-port=32348
-```
-2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
+Most of my changes can be viewed by searching for NOTE
+
+## Most Interesting Notes Include
+ - Removed white version of the site, because i didnt have a pure green logo +
+   nobodys eyes desrve that (could easily be re-enabled)
+ - Updated a foreach loop on getPoolTransactions() on homepage because it didnt
+   work
