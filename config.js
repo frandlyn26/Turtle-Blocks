@@ -1,7 +1,7 @@
-var api = 'PUT_YOUR_DAEMON_IP_HERE';
+var api = '127.0.0.1';
 var blockTargetInterval = 240;
-var coinUnits = 1000000000000;
-var symbol = 'TRTL';
+var coinUnits = 1652000000000000;
+var symbol = 'P1652';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
